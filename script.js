@@ -3,17 +3,17 @@ document.addEventListener('DOMContentLoaded', function() {
     const heroImages = [
         "img/hero.png",
         "img/hero1.png",
-        "img/hero2.png
-         ];
+        "img/hero2.png"
+    ];
 
     const properties = [
         { 
             id: 1, 
-            title: "CASA De MARTI", 
-            price: "consultar", 
-            image: "img/propiedad.png", 
+            title: "DEPARTAMENTOS EN VENTA", 
+            price: "NUEVO SAMBORONDON", 
+            image: "img/nuevosamborombon.png", 
             type: "venta",
-            description: "descripción agregar, ejemplos",
+            description: "¡Oportunidad única! Hermoso departamento en la exclusiva zona de Nuevo Samborondón. Este espacioso hogar cuenta con 2 habitaciones, 2 baños modernos, cocina abierta, sala y comedor acogedores. Áreas sociales incluyen piscina, gimnasio y salón de eventos. Seguridad 24/7 con conserjería y vigilancia.",
             features: [
                 "2 habitaciones con armarios empotrados",
                 "2 baños modernos con acabados de alta calidad",
