@@ -1,11 +1,11 @@
 /* Estilos generales y variables */
 :root {
-    --primary-color: #FF0000;
-    --secondary-color: #808080;
-    --background-color: #FFFFFF;
-    --text-color: #333333;
-    --theme-color: #FF0000;
-    --transition-speed: 0.3s;
+    --primary-color: #663399;      /* Color morado (primary) */
+    --secondary-color: #4B0082;    /* Color índigo (secondary) */
+    --background-color: #FFFFFF;   /* Color de fondo */
+    --text-color: #333333;         /* Color de texto */
+    --theme-color: #663399;        /* Puede coincidir con el primary color */
+    --transition-speed: 0.3s;      /* Velocidad de transición */
 }
 html, body {
     overflow-x: hidden;  /* Oculta el scroll horizontal */
