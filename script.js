@@ -1,19 +1,18 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Datos de ejemplo (en una aplicación real, estos datos vendrían de una API o base de datos)
     const heroImages = [
-        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&h=900&q=80",
-        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&h=900&q=80",
-        "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&h=900&q=80"
-    ];
+        "img/hero.png",
+        "img/hero1.png",
+        "img/hero2.png
 
     const properties = [
         { 
             id: 1, 
-            title: "DEPARTAMENTOS EN VENTA", 
-            price: "NUEVO SAMBORONDON", 
-            image: "img/nuevosamborombon.png", 
+            title: "CASA D' MARTI", 
+            price: "consultar", 
+            image: "img/propiedad.png", 
             type: "venta",
-            description: "¡Oportunidad única! Hermoso departamento en la exclusiva zona de Nuevo Samborondón. Este espacioso hogar cuenta con 2 habitaciones, 2 baños modernos, cocina abierta, sala y comedor acogedores. Áreas sociales incluyen piscina, gimnasio y salón de eventos. Seguridad 24/7 con conserjería y vigilancia.",
+            description: "descripción agregar, ejemplos",
             features: [
                 "2 habitaciones con armarios empotrados",
                 "2 baños modernos con acabados de alta calidad",
@@ -32,11 +31,11 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         { 
             id: 2, 
-            title: "DEPARTAMENTOS EN VENTA", 
-            price: "ISLA MOCOLI", 
-            image: "img/isla.png", 
+            title: "CASA FREDDIANO", 
+            price: "Consultar", 
+            image: "img/propiedad1.png", 
             type: "venta",
-            description: "Ubicados en una de las zonas más prestigiosas y exclusiva  de la ciudad, estos departamentos ofrecen una combinación perfecta de estilo, comodidad y privacidad.Proyecto exclusivo de departamentos de 3 habitaciones en Isla Mocoli.",
+            description: "descripción agregar, ejemplos.",
             features: [
                 "3 habitaciones amplias y bien iluminadas",
                 "3,5  baños completos",
@@ -53,11 +52,11 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         { 
             id: 3, 
-            title: "LOCALES COMERCIALES", 
+            title: "CASA CARMINE 2", 
             price: "Consultar", 
-            image: "img/localescomerciales.png", 
+            image: "img/propiedad2.png", 
             type: "alquiler",
-            description: "Oportunidad única de invertir en locales comerciales en Nuevo Samborondon  Estos locales ofrecen una combinación perfecta de ubicación, visibilidad y potencial de crecimiento.Nuestros locales comerciales están diseñados para satisfacer las necesidades de los empresarios más exigentes. Ofrecemos:",
+            description: "descripción agregar, ejemplos.:",
             features: [
                 "Locales de diferentes tamaños y diseños para adaptarse a sus necesidades específicas.",
                 "Ventanas y fachadas amplias para maximizar la visibilidad.",
@@ -72,9 +71,9 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         { 
             id: 4, 
-            title: "CASAS PERSONALIZADAS", 
+            title: "CASA FIESOLE", 
             price: "Consultar", 
-            image: "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80", 
+            image: "img/propiedad3.png", 
             type: "venta",
             description: "Nuestra empresa cuenta con un equipo de expertos en construcción y diseño que trabajan juntos para crear casas personalizadas que se adaptan a las necesidades y gustos de cada cliente.Nuestro objetivo es hacer que su sueño de tener una casa perfecta se convierta en realidad.",
             features: [
