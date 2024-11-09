@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "img/hero.png",
         "img/hero1.png",
         "img/hero2.png
+         ];
 
     const properties = [
         { 
