@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const properties = [
         { 
             id: 1, 
-            title: "CASA D' MARTI", 
+            title: "CASA D MARTI", 
             price: "consultar", 
             image: "img/propiedad.png", 
             type: "venta",
