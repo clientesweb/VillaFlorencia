@@ -9,18 +9,18 @@ document.addEventListener('DOMContentLoaded', function() {
     const properties = [
         { 
             id: 1, 
-            title: "CASA DE MARTI", 
+            title: "Villa Florencia - Casa Modelo", 
             price: "Consultar", 
-            image: "img/propiedad.png", 
+            image: "img/casa-modelo.png", 
             type: "venta",
-            description: "¡Oportunidad única! Hermoso departamento en la exclusiva zona de Nuevo Samborondón. Este espacioso hogar cuenta con 2 habitaciones, 2 baños modernos, cocina abierta, sala y comedor acogedores. Áreas sociales incluyen piscina, gimnasio y salón de eventos. Seguridad 24/7 con conserjería y vigilancia.",
+            description: "¡Oportunidad única! Hermosa casa modelo en Villa Florencia. Este espacioso hogar cuenta con 3 habitaciones, 2.5 baños modernos, cocina abierta, sala y comedor acogedores. Áreas sociales incluyen piscina, parque infantil y áreas verdes. Seguridad 24/7 con acceso controlado.",
             features: [
-                "2 habitaciones con armarios empotrados",
-                "2 baños modernos con acabados de alta calidad",
+                "3 habitaciones con armarios empotrados",
+                "2.5 baños modernos con acabados de alta calidad",
                 "Cocina abierta con muebles a medida",
                 "Sala y comedor acogedores",
-                "Áreas sociales: piscina, gimnasio, salón de eventos",
-                "Seguridad 24/7 con conserjería y vigilancia"
+                "Áreas sociales: piscina, parque infantil, áreas verdes",
+                "Seguridad 24/7 con acceso controlado"
             ],
             gallery: [
                 "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80",
@@ -32,18 +32,18 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         { 
             id: 2, 
-            title: "CASA FREDDIANO", 
+            title: "Villa Florencia - Casa Familiar", 
             price: "Consultar", 
-            image: "img/propiedad1.png", 
+            image: "img/casa-familiar.png", 
             type: "venta",
-            description: "descripción agregar, ejemplos.",
+            description: "Amplia casa familiar en Villa Florencia, perfecta para familias que buscan comodidad y seguridad.",
             features: [
-                "3 habitaciones amplias y bien iluminadas",
-                "3,5  baños completos",
-                "Vistas impresionantes a la  Isla y de la ciudad",
-                "Área de lavado y secado",
-                "Seguridad 24/7, Gimnasio, Piscina",
-                "Estacionamiento privado y de visitas"
+                "4 habitaciones amplias y bien iluminadas",
+                "3 baños completos",
+                "Amplio jardín privado",
+                "Cocina equipada con electrodomésticos modernos",
+                "Garaje para 2 vehículos",
+                "Acceso a todas las amenidades de Villa Florencia"
             ],
             gallery: [
                 "https://images.unsplash.com/photo-1600607687644-c7f34e88598f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80",
@@ -53,16 +53,18 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         { 
             id: 3, 
-            title: "CASA CARMINE 2", 
+            title: "Villa Florencia - Casa de Campo", 
             price: "Consultar", 
-            image: "img/propiedad2.png", 
-            type: "alquiler",
-            description: "descripción agregar, ejemplos.:",
+            image: "img/casa-campo.png", 
+            type: "venta",
+            description: "Encantadora casa de campo en Villa Florencia, ideal para quienes buscan tranquilidad y contacto con la naturaleza.",
             features: [
-                "Locales de diferentes tamaños y diseños para adaptarse a sus necesidades específicas.",
-                "Ventanas y fachadas amplias para maximizar la visibilidad.",
-                "Acceso fácil para clientes y empleados.",
-                "Instalaciones modernas y bien mantenidas."
+                "3 habitaciones con vistas al jardín",
+                "2 baños rústicos",
+                "Amplia terraza con área de barbacoa",
+                "Huerto orgánico",
+                "Establo para caballos",
+                "Acceso a senderos naturales"
             ],
             gallery: [
                 "https://images.unsplash.com/photo-1600607687954-e85aa7b46ca3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80",
@@ -72,17 +74,18 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         { 
             id: 4, 
-            title: "CASA FIESOLE", 
+            title: "Villa Florencia - Casa Moderna", 
             price: "Consultar", 
-            image: "img/propiedad3.png", 
+            image: "img/casa-moderna.png", 
             type: "venta",
-            description: "Nuestra empresa cuenta con un equipo de expertos en construcción y diseño que trabajan juntos para crear casas personalizadas que se adaptan a las necesidades y gustos de cada cliente.Nuestro objetivo es hacer que su sueño de tener una casa perfecta se convierta en realidad.",
+            description: "Elegante casa moderna en Villa Florencia con diseño vanguardista y todas las comodidades.",
             features: [
-                "Diseño personalizado: trabajamos con usted para crear un diseño que se adapte a su estilo de vida y preferencias.",
-                "Materiales de alta calidad: utilizamos materiales de alta calidad para garantizar la durabilidad y eficiencia energética de su casa.",
-                "Construcción rápida y eficiente: nuestra experiencia y tecnología nos permiten construir casas de manera rápida y eficiente sin comprometer la calidad.",
-                "Atención al detalle: nos enfocamos en los detalles para asegurarnos de que su casa sea perfecta.",
-                "No pierda la oportunidad de tener la casa de sus sueños. ¡Contáctenos hoy mismo para obtener más información y programar una reunión!"
+                "3 habitaciones con baño privado",
+                "Sala de estar con doble altura",
+                "Cocina de concepto abierto con isla",
+                "Sistema de domótica integrado",
+                "Terraza en la azotea con jacuzzi",
+                "Garaje subterráneo para 2 vehículos"
             ],
             gallery: [
                 "https://images.unsplash.com/photo-1600607688960-a5bfcd646154?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80",
@@ -92,18 +95,18 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         { 
             id: 5, 
-            title: "DEPARTAMENTOS EN CUENCA", 
+            title: "Villa Florencia - Casa Ejecutiva", 
             price: "Consultar", 
-            image: "img/departamentoscuenca.png", 
+            image: "img/casa-ejecutiva.png", 
             type: "venta",
-            description: "Oportunidad única de invertir en un departamento en Cuenca, ideal para Airbnb.",
+            description: "Casa ejecutiva en Villa Florencia, perfecta para profesionales que buscan comodidad y estilo.",
             features: [
-                "2  Y 3 habitaciones amplias y bien iluminadas",
-                "2  Y 3  baños completos",
-                "Salón-comedor con cocina integrada",
-                "con vistas impresionantes a la ciudad",
-                "Áreas sociales: piscina, gimnasio, salón de eventos",
-                "Seguridad 24/7 con conserjería y vigilancia"
+                "2 habitaciones amplias con vestidor",
+                "Oficina en casa con vista al jardín",
+                "Sala de cine en casa",
+                "Gimnasio privado equipado",
+                "Piscina infinita con vistas panorámicas",
+                "Sistema de seguridad avanzado"
             ],
             gallery: [
                 "https://images.unsplash.com/photo-1600607688921-a5bfcd646154?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80",
@@ -114,33 +117,33 @@ document.addEventListener('DOMContentLoaded', function() {
     ];
 
     const services = [
-        { title: "Asesoría Legal", icon: "fas fa-gavel", description: "Asistencia legal completa en transacciones inmobiliarias." },
-        { title: "Avalúo de Propiedades", icon: "fas fa-chart-line", description: "Valoración profesional y precisa de bienes inmuebles." },
-        { title: "Asesoría Dentro y Fuera de Ecuador", icon: "fas fa-globe-americas", description: "Orientación experta en inversiones nacionales e internacionales." },
-        { title: "Gestión de Proyectos", icon: "fas fa-tasks", description: "Administración integral de proyectos inmobiliarios." },
-        { title: "Análisis de Mercado", icon: "fas fa-search-dollar", description: "Estudios detallados del mercado inmobiliario actual." },
-        { title: "Gestión de Ventas", icon: "fas fa-handshake", description: "Estrategias efectivas para la venta de propiedades." },
-        { title: "Venta de Proyectos en Planos", icon: "fas fa-drafting-compass", description: "Comercialización de proyectos inmobiliarios en fase de planificación." },
-        { title: "Gestión de Alquileres", icon: "fas fa-home", description: "Administración completa de propiedades en alquiler." }
+        { title: "Asesoría Legal", icon: "fas fa-gavel", description: "Asistencia legal completa en transacciones inmobiliarias en Villa Florencia." },
+        { title: "Financiamiento", icon: "fas fa-chart-line", description: "Opciones de financiamiento flexibles para tu hogar en Villa Florencia." },
+        { title: "Diseño Personalizado", icon: "fas fa-pencil-ruler", description: "Personaliza tu casa en Villa Florencia según tus gustos y necesidades." },
+        { title: "Gestión de Proyectos", icon: "fas fa-tasks", description: "Administración integral de tu proyecto de construcción en Villa Florencia." },
+        { title: "Análisis de Mercado", icon: "fas fa-search-dollar", description: "Estudios detallados del mercado inmobiliario en la zona de Villa Florencia." },
+        { title: "Gestión de Ventas", icon: "fas fa-handshake", description: "Estrategias efectivas para la venta de propiedades en Villa Florencia." },
+        { title: "Venta de Proyectos en Planos", icon: "fas fa-drafting-compass", description: "Oportunidad de compra en etapa de planificación en Villa Florencia." },
+        { title: "Servicio Post-Venta", icon: "fas fa-home", description: "Atención continua después de la compra de tu propiedad en Villa Florencia." }
     ];
 
     const testimonials = [
     {
         name: "Juan Pérez",
-        text: "Excelente servicio, encontré mi casa ideal gracias a Janneth Aguirre. Desde el primer momento me ofrecieron opciones que se ajustaban a mis necesidades, y todo el proceso fue transparente y fácil de seguir. El equipo se encargó de cada detalle, desde la negociación hasta la firma. Estoy muy contento con mi compra y la atención que recibí. ¡Recomiendo totalmente sus servicios!",
-        rating: 5, // Calificación de 1 a 5 estrellas
+        text: "Excelente servicio, encontré mi casa ideal en Villa Florencia. Desde el primer momento me ofrecieron opciones que se ajustaban a mis necesidades, y todo el proceso fue transparente y fácil de seguir. El equipo se encargó de cada detalle, desde la negociación hasta la firma. Estoy muy contento con mi compra y la atención que recibí. ¡Recomiendo totalmente Villa Florencia!",
+        rating: 5,
         date: "Enero 2024"
     },
     {
         name: "María González",
-        text: "Profesionalismo y dedicación en cada paso del proceso de compra. Me acompañaron durante todo el proceso, desde la búsqueda hasta la firma del contrato, explicándome todo con mucha claridad. Además, me brindaron asesoría sobre la mejor opción de financiamiento, lo cual hizo todo mucho más fácil. Estoy muy agradecida por la atención y la calidad de servicio.",
-        rating: 5, // Calificación de 1 a 5 estrellas
+        text: "Profesionalismo y dedicación en cada paso del proceso de compra en Villa Florencia. Me acompañaron durante todo el proceso, desde la búsqueda hasta la firma del contrato, explicándome todo con mucha claridad. Además, me brindaron asesoría sobre la mejor opción de financiamiento, lo cual hizo todo mucho más fácil. Estoy muy agradecida por la atención y la calidad de servicio.",
+        rating: 5,
         date: "Marzo 2024"
     },
     {
         name: "Carlos Rodríguez",
-        text: "La mejor experiencia en venta de propiedades. Altamente recomendado. Desde el primer contacto hasta la venta final, todo fue rápido y eficiente. El equipo de Janneth Aguirre se encargó de gestionar cada detalle, manteniéndome informado en todo momento. Me dieron una excelente estrategia de venta y pude lograr una transacción rápida y beneficiosa.",
-        rating: 5, // Calificación de 1 a 5 estrellas
+        text: "La mejor experiencia en compra de propiedades. Villa Florencia es altamente recomendado. Desde el primer contacto hasta la entrega final, todo fue rápido y eficiente. El equipo de Villa Florencia se encargó de gestionar cada detalle, manteniéndome informado en todo momento. Me dieron una excelente asesoría y pude lograr una transacción rápida y beneficiosa.",
+        rating: 5,
         date: "Febrero 2024"
     }
 ];
@@ -154,39 +157,39 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const faqs = [
         { 
-            question: "¿Cuál es el proceso para comprar una propiedad?", 
-            answer: "El proceso generalmente incluye: búsqueda de la propiedad, negociación del precio, firma de un contrato de compraventa, obtención de financiamiento si es necesario, y cierre de la transacción. Nuestro equipo le guiará en cada paso." 
+            question: "¿Cuál es el proceso para comprar una casa en Villa Florencia?", 
+            answer: "El proceso generalmente incluye: visita al proyecto, selección de la casa, negociación del precio, firma de un contrato de compraventa, obtención de financiamiento si es necesario, y cierre de la transacción. Nuestro equipo le guiará en cada paso." 
         },
         { 
-            question: "¿Qué documentos necesito para vender mi propiedad?", 
-            answer: "Generalmente necesitará: título de propiedad, certificado de gravámenes, pago de impuestos al día, y cédula de identidad. Podemos ayudarle a reunir toda la documentación necesaria." 
+            question: "¿Qué documentos necesito para comprar en Villa Florencia?", 
+            answer: "Generalmente necesitará: cédula de identidad, comprobantes de ingresos, declaración de impuestos, y referencias bancarias. Nuestro equipo le ayudará a reunir toda la documentación necesaria." 
         },
         { 
-            question: "¿Cómo determino el precio de venta de mi propiedad?", 
-            answer: "El precio se determina considerando factores como la ubicación, tamaño, condición de la propiedad, y precios de propiedades similares en la zona. Ofrecemos servicios de tasación profesional para ayudarle a establecer un precio justo." 
+            question: "¿Cómo se determina el precio de las casas en Villa Florencia?", 
+            answer: "El precio se determina considerando factores como el tamaño de la casa, las características específicas, la ubicación dentro del proyecto, y las amenidades incluidas. Ofrecemos diferentes modelos para adaptarnos a diversos presupuestos." 
         },
         { 
-            question: "¿Cuánto tiempo toma vender una propiedad?", 
-            answer: "El tiempo de venta puede variar dependiendo de factores como la ubicación, el precio, y las condiciones del mercado. En promedio, puede tomar entre 3 a 6 meses, pero algunas propiedades se venden más rápido." 
+            question: "¿Cuánto tiempo toma la construcción de una casa en Villa Florencia?", 
+            answer: "El tiempo de construcción puede variar dependiendo del modelo de casa seleccionado y otros factores. En promedio, puede tomar entre 6 a 12 meses desde la firma del contrato hasta la entrega de la casa." 
         },
         { 
-            question: "¿Ofrecen servicios de administración de propiedades?", 
-            answer: "Sí, ofrecemos servicios completos de administración de propiedades, incluyendo búsqueda de inquilinos, cobro de alquileres, mantenimiento y reparaciones." 
+            question: "¿Ofrecen opciones de financiamiento para comprar en Villa Florencia?", 
+            answer: "Sí, trabajamos con varias instituciones financieras para ofrecer opciones de financiamiento adaptadas a las necesidades de nuestros clientes. También ofrecemos planes de pago flexibles durante la construcción." 
         }
     ];
 
     const investReasons = {
         samborondon: [
-            "Samborondón, el corazón económico de la región, donde la inversión y el progreso se unen.",
-            "Descubre Samborondón, el destino más próspero para invertir en Ecuador, con crecimiento sostenible y estabilidad.",
-            "Samborondón, ciudad innovadora y emprendedora, impulsa tus negocios con infraestructura y tecnología de vanguardia.",
-            "Invierte en Samborondón y aprovecha su ubicación estratégica",
-            "Samborondón, líder en desarrollo urbano y calidad de vida, ofrece oportunidades ilimitadas para compradores e inversores.",
-            "La economía en crecimiento y la inversión constante convierten a Samborondón en un polo de atracción para empresarios.",
-            "Samborondón, ciudad de oportunidades, donde la inversión en bienes raíces, comercio y servicios florece.",
-            "El clima y la geografía de Samborondón ofrecen un entorno ideal para vivir, trabajar e invertir.",
-            "Samborondón, un lugar donde  la innovación y la tecnología se unen para impulsar el crecimiento económico.",
-            "Invierte en Samborondón y sé parte de una comunidad próspera y en constante  crecimiento, con un futuro brillante."
+            "Villa Florencia, ubicada en el corazón de Samborondón, donde la inversión y el progreso se unen.",
+            "Descubre Villa Florencia, el destino más próspero para invertir en Ecuador, con crecimiento sostenible y estabilidad.",
+            "Villa Florencia, comunidad innovadora y emprendedora, impulsa tu calidad de vida con infraestructura y tecnología de vanguardia.",
+            "Invierte en Villa Florencia y aprovecha su ubicación estratégica en Samborondón",
+            "Villa Florencia, líder en desarrollo urbano y calidad de vida, ofrece oportunidades ilimitadas para compradores e inversores.",
+            "La economía en crecimiento y la inversión constante convierten a Villa Florencia en un polo de atracción para familias y profesionales.",
+            "Villa Florencia, comunidad de oportunidades, donde la inversión en bienes raíces florece.",
+            "El clima y la geografía de Villa Florencia ofrecen un entorno ideal para vivir, trabajar y disfrutar.",
+            "Villa Florencia, un lugar donde la innovación y la tecnología se unen para impulsar una vida de calidad.",
+            "Invierte en Villa Florencia y sé parte de una comunidad próspera y en constante crecimiento, con un futuro brillante."
         ],
         usa: [
             "Estados Unidos ofrece un mercado inmobiliario estable y diversificado para inversores internacionales.",
@@ -500,7 +503,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 });
             };
 
-            createAccordion(document.getElementById('invest-samborondon'), 'Invertir en Samborondón', investReasons.samborondon, 'https://flagcdn.com/w40/ec.png');
+            createAccordion(document.getElementById('invest-samborondon'), 'Invertir en Villa Florencia', investReasons.samborondon, 'https://flagcdn.com/w40/ec.png');
             createAccordion(document.getElementById('invest-usa'), 'Invertir en Estados Unidos', investReasons.usa, 'https://flagcdn.com/w40/us.png');
             createAccordion(document.getElementById('invest-panama'), 'Invertir en Panamá', investReasons.panama, 'https://flagcdn.com/w40/pa.png');
         }
@@ -553,18 +556,52 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p class="mb-4">${property.description}</p>
                 <h4 class="font-bold mb-2">Características:</h4>
                 <ul class="list-disc pl-5 mb-4">
-                    ${property.features ? property.features.map(feature => `<li>${feature}</li>`).join('') : ''}
+                    ${property.features.map(feature => `<li>${feature}</li>`).join('')}
                 </ul>
-                <button class="bg-primary text-white px-4 py-2 rounded hover:bg-primary/90 transition-colors">Contactar Agente</button>
+                <button id="contact-agent" class="bg-primary text-white px-4 py-2 rounded hover:bg-primary/90 transition-colors">Contactar Agente</button>
             `;
             
             modal.classList.remove('hidden');
             modal.classList.add('flex');
+            
+            document.getElementById('contact-agent').addEventListener('click', () => {
+                this.contactAgent(property);
+            });
+        }
+
+        showFullImage(imageSrc, currentIndex, images) {
+            const fullImageContainer = document.getElementById('full-image-container');
+            const fullImage = document.getElementById('full-image');
+            const prevButton = document.getElementById('prev-image');
+            const nextButton = document.getElementById('next-image');
+            
+            fullImage.src = imageSrc;
+            fullImageContainer.classList.remove('hidden');
+            
+            const updateImage = (index) => {
+                fullImage.src = images[index];
+            };
+            
+            prevButton.onclick = () => {
+                currentIndex = (currentIndex - 1 + images.length) % images.length;
+                updateImage(currentIndex);
+            };
+            
+            nextButton.onclick = () => {
+                currentIndex = (currentIndex + 1) % images.length;
+                updateImage(currentIndex);
+            };
+            
+            fullImageContainer.onclick = (e) => {
+                if (e.target === fullImageContainer) {
+                    fullImageContainer.classList.add('hidden');
+                }
+            };
         }
 
         closeGalleryModal() {
-            const modal = document.getElementById('gallery-modal');
             const closeButton = document.getElementById('close-modal');
+            const modal = document.getElementById('gallery-modal');
             
             closeButton.addEventListener('click', () => {
                 modal.classList.add('hidden');
@@ -579,65 +616,34 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }
 
-        async loadYouTubeVideos() {
-            const youtubeContainer = document.getElementById('youtube-slider');
-            const channelId = 'UCiahlQJxCgPY-tEfjvkab8g';
-            const maxResults = 10;
-            const apiKey ='AIzaSyBf5wzygVChOBD-3pPb4BR2v5NA4uE9J5c';
+        contactAgent(property) {
+            const message = `Hola, estoy interesado en la propiedad "${property.title}" con un precio de ${property.price}. ¿Podría proporcionarme más información?`;
+            const encodedMessage = encodeURIComponent(message);
+            const whatsappLink = `https://wa.me/593995172687?text=${encodedMessage}`;
+            window.open(whatsappLink, '_blank');
+        }
 
-            try {
-                const response = await fetch(`https://www.googleapis.com/youtube/v3/search?key=${apiKey}&channelId=${channelId}&part=snippet,id&order=date&maxResults=${maxResults}`);
-                const data = await response.json();
-
-                data.items.forEach(item => {
-                    const videoId = item.id.videoId;
-                    const title = item.snippet.title;
-                    const thumbnail = item.snippet.thumbnails.medium.url;
-
-                    const videoElement = document.createElement('div');
-                    videoElement.className = 'youtube-video';
-                    videoElement.innerHTML = `
-                        <img src="${thumbnail}" alt="${title}" class="w-full cursor-pointer">
-                        <h3 class="text-lg font-semibold mt-2">${title}</h3>
-                    `;
-                    videoElement.addEventListener('click', () => {
-                        const iframe = document.createElement('iframe');
-                        iframe.src = `https://www.youtube.com/embed/${videoId}`;
-                        iframe.width = '100%';
-                        iframe.height = '200';
-                        iframe.allowFullscreen = true;
-                        videoElement.innerHTML = '';
-                        videoElement.appendChild(iframe);
-                    });
-                    youtubeContainer.appendChild(videoElement);
-                });
-
-                this.createSlider('#youtube-slider', {
-                    dots: true,
-                    infinite: false,
-                    speed: 300,
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                    responsive: [
-                        {
-                            breakpoint: 1024,
-                            settings: {
-                                slidesToShow: 2,
-                                slidesToScroll: 2
-                            }
-                        },
-                        {
-                            breakpoint: 600,
-                            settings: {
-                                slidesToShow: 1,
-                                slidesToScroll: 1
-                            }
-                        }
-                    ]
-                });
-            } catch (error) {
-                console.error('Error fetching YouTube videos:', error);
-            }
+        loadYouTubeVideos() {
+            const youtubeSlider = document.getElementById('youtube-slider');
+            const videoIds = ['VIDEO_ID_1', 'VIDEO_ID_2', 'VIDEO_ID_3'];
+            
+            videoIds.forEach(videoId => {
+                const videoContainer = document.createElement('div');
+                videoContainer.className = 'youtube-video';
+                videoContainer.innerHTML = `
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                `;
+                youtubeSlider.appendChild(videoContainer);
+            });
+            
+            this.createSlider('#youtube-slider', {
+                dots: true,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: false
+            });
         }
 
         initContactForm() {
@@ -647,7 +653,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     e.preventDefault();
                     const { name, email, message } = form.elements;
                     const whatsappMessage = `Nombre: ${name.value}%0AEmail: ${email.value}%0AMensaje: ${message.value}`;
-                    const whatsappUrl = `https://wa.me/593987167782?text=${whatsappMessage}`;
+                    const whatsappUrl = `https://wa.me/593995172687?text=${whatsappMessage}`;
                     window.open(whatsappUrl, '_blank');
                     form.reset();
                 });
@@ -656,12 +662,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
         handleBackToTop() {
             const backToTopButton = document.getElementById('back-to-top');
-            
             window.addEventListener('scroll', () => {
                 if (window.pageYOffset > 100) {
-                    backToTopButton.style.display = 'block';
+                    backToTopButton.classList.remove('hidden');
                 } else {
-                    backToTopButton.style.display = 'none';
+                    backToTopButton.classList.add('hidden');
                 }
             });
             
@@ -671,21 +676,17 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         handleScrollAnimation() {
-            const fadeElems = document.querySelectorAll('.fade-in-section');
+            const fadeElements = document.querySelectorAll('.fade-in-section');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                    }
+                });
+            });
             
-            const fadeIn = (elem) => {
-                const distInView = elem.getBoundingClientRect().top - window.innerHeight + 20;
-                if (distInView < 0) {
-                    elem.classList.add('is-visible');
-                } else {
-                    elem.classList.remove('is-visible');
-                }
-            };
-            
-            fadeElems.forEach(elem => fadeIn(elem));
-            
-            window.addEventListener('scroll', () => {
-                fadeElems.forEach(elem => fadeIn(elem));
+            fadeElements.forEach(element => {
+                observer.observe(element);
             });
         }
 
@@ -696,84 +697,138 @@ document.addEventListener('DOMContentLoaded', function() {
             window.addEventListener('beforeinstallprompt', (e) => {
                 e.preventDefault();
                 deferredPrompt = e;
-                installButton.style.display = 'block';
+                installButton.classList.remove('hidden');
             });
             
-            installButton.addEventListener('click', () => {
+            installButton.addEventListener('click', async () => {
                 if (deferredPrompt) {
                     deferredPrompt.prompt();
-                    deferredPrompt.userChoice.then((choiceResult) => {
-                        if (choiceResult.outcome === 'accepted') {
-                            console.log('Usuario aceptó la instalación de la PWA');
-                        }
-                        deferredPrompt = null;
-                    });
+                    const { outcome } = await deferredPrompt.userChoice;
+                    if (outcome === 'accepted') {
+                        console.log('User accepted the install prompt');
+                    } else {
+                        console.log('User dismissed the install prompt');
+                    }
+                    deferredPrompt = null;
                 }
             });
         }
 
         handlePreloader() {
-            const preloader = document.getElementById('preloader');
-            const mainContent = document.getElementById('main-content');
-
             window.addEventListener('load', () => {
-                setTimeout(() => {
-                    preloader.style.opacity = '0';
-                    preloader.style.visibility = 'hidden';
-                    mainContent.classList.remove('hidden');
-                }, 1000);
+                const preloader = document.getElementById('preloader');
+                preloader.style.display = 'none';
             });
         }
 
         initChatbot() {
-    const chatbotButton = document.getElementById('open-chatbot');
-    const chatbotWindow = document.getElementById('chatbot-window');
-    const closeChatbot = document.getElementById('close-chatbot');
-
-    // Cuando el botón de abrir el chatbot es presionado
-    chatbotButton.addEventListener('click', () => {
-        // Alternar la visibilidad del chatbot (usando la clase 'active' para mostrarla)
-        chatbotWindow.classList.toggle('active');
-    });
-
-    // Cuando el botón de cerrar el chatbot es presionado
-    closeChatbot.addEventListener('click', () => {
-        // Añadir la clase 'hidden' para ocultar el chatbot
-        chatbotWindow.classList.remove('active');
-    });
-}
-
-        preloadImages() {
-            const allImages = [
-                ...heroImages,
-                ...properties.map(p => p.image),
-                ...properties.flatMap(p => p.gallery || []),
-                ...instagramPosts.map(p => p.image)
+            const openChatbotButton = document.getElementById('open-chatbot');
+            const closeChatbotButton = document.getElementById('close-chatbot');
+            const chatbotWindow = document.getElementById('chatbot-window');
+            const chatbotForm = document.getElementById('chatbot-form');
+            const chatbotInput = document.getElementById('chatbot-input');
+            const chatbotMessages = document.getElementById('chatbot-messages');
+            const suggestedQuestions = document.getElementById('suggested-questions');
+            
+            const initialSuggestedQuestions = [
+                "¿Cuáles son los precios de las casas en Villa Florencia?",
+                "¿Qué amenidades ofrece Villa Florencia?",
+                "¿Cómo puedo agendar una visita a Villa Florencia?"
             ];
-
-            allImages.forEach(image => {
-                const img = new Image();
-                img.src = image;
+            
+            const addMessage = (message, isUser = false) => {
+                const messageElement = document.createElement('div');
+                messageElement.className = `p-2 rounded-lg ${isUser ? 'bg-blue-100 ml-auto' : 'bg-gray-100'} max-w-[80%]`;
+                messageElement.textContent = message;
+                chatbotMessages.appendChild(messageElement);
+                chatbotMessages.scrollTop = chatbotMessages.scrollHeight;
+            };
+            
+            const addSuggestedQuestion = (question) => {
+                const questionButton = document.createElement('button');
+                questionButton.className = 'bg-gray-200 text-sm px-2 py-1 rounded-full mr-2 mb-2 hover:bg-gray-300 transition-colors';
+                questionButton.textContent = question;
+                questionButton.addEventListener('click', () => {
+                    chatbotInput.value = question;
+                    chatbotForm.dispatchEvent(new Event('submit'));
+                });
+                suggestedQuestions.appendChild(questionButton);
+            };
+            
+            openChatbotButton.addEventListener('click', () => {
+                chatbotWindow.classList.remove('hidden');
+                if (chatbotMessages.children.length === 0) {
+                    addMessage("¡Hola! Soy ARIA, tu asistente virtual de Villa Florencia. ¿En qué puedo ayudarte hoy?");
+                    initialSuggestedQuestions.forEach(addSuggestedQuestion);
+                }
+            });
+            
+            closeChatbotButton.addEventListener('click', () => {
+                chatbotWindow.classList.add('hidden');
+            });
+            
+            chatbotForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const userMessage = chatbotInput.value.trim();
+                if (userMessage) {
+                    addMessage(userMessage, true);
+                    chatbotInput.value = '';
+                    suggestedQuestions.innerHTML = '';
+                    
+                    setTimeout(() => {
+                        let botResponse;
+                        if (userMessage.toLowerCase().includes('precio')) {
+                            botResponse = "Los precios de las casas en Villa Florencia varían según el modelo y las características. Te recomiendo contactar a nuestro equipo de ventas para obtener información detallada y actualizada sobre los precios.";
+                        } else if (userMessage.toLowerCase().includes('amenidad')) {
+                            botResponse = "Villa Florencia ofrece diversas amenidades, incluyendo áreas verdes, parques infantiles, piscina comunitaria, y seguridad las 24 horas. ¿Te gustaría saber más sobre alguna amenidad en particular?";
+                        } else if (userMessage.toLowerCase().includes('visita')) {
+                            botResponse = "¡Excelente! Para agendar una visita a Villa Florencia, puedes llamar al 0995172687 o enviar un mensaje de WhatsApp. Nuestro equipo estará encantado de coordinar una visita en el horario que más te convenga.";
+                        } else {
+                            botResponse = "Gracias por tu pregunta. Para brindarte la información más precisa y actualizada, te sugiero contactar directamente con nuestro equipo de ventas al 0995172687. Estarán encantados de asistirte en todo lo que necesites.";
+                        }
+                        addMessage(botResponse);
+                        
+                        const newSuggestedQuestions = [
+                            "¿Cuáles son los tipos de casas disponibles?",
+                            "¿Cómo es el proceso de compra?",
+                            "¿Ofrecen opciones de financiamiento?"
+                        ];
+                        newSuggestedQuestions.forEach(addSuggestedQuestion);
+                    }, 1000);
+                }
             });
         }
 
         improveResponsiveness() {
-            const resizeObserver = new ResizeObserver(entries => {
-                for (let entry of entries) {
-                    if (entry.contentBoxSize) {
-                        if (entry.contentBoxSize[0].inlineSize < 768) {
-                            document.body.classList.add('mobile');
-                        } else {
-                            document.body.classList.remove('mobile');
-                        }
-                    }
+            const bottomNav = document.querySelector('.bottom-nav');
+            let lastScrollTop = 0;
+            
+            window.addEventListener('scroll', () => {
+                const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                if (scrollTop > lastScrollTop) {
+                    bottomNav.style.transform = 'translateY(100%)';
+                } else {
+                    bottomNav.style.transform = 'translateY(0)';
                 }
-            });
+                lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+            }, false);
+        }
 
-            resizeObserver.observe(document.body);
+        preloadImages() {
+            const imagesToPreload = [
+                ...heroImages,
+                ...properties.map(p => p.image),
+                ...properties.flatMap(p => p.gallery || [])
+            ];
+            
+            imagesToPreload.forEach(src => {
+                const img = new Image();
+                img.src = src;
+            });
         }
     }
 
-    // Initialize the website
-    const websiteManager = new WebsiteManager();
+    new WebsiteManager();
 });
+
+console.log("Villa Florencia script updated successfully!");
