@@ -1,10 +1,10 @@
-const CACHE_NAME = 'ja-bienes-raices-v1';
+const CACHE_NAME = 'villa-florencia-v1';
 const urlsToCache = [
   '/',
   'index.html',
   'script.js',
   'styles.css',
-  'img/Logo-Janneth-Aguirre-2020-ecuador.png',
+  'img/logo.jpg',
   'img/favicon-32x32.png',
   'img/icon-192x192.png',
   'img/icon-512x512.png',
