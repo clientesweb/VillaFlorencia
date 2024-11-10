@@ -1,11 +1,11 @@
 {
-  "name": "Janneth Aguirre Bienes Raíces",
-  "short_name": "JA Bienes Raíces",
-  "description": "Encuentra tu hogar ideal con Janneth Aguirre Bienes Raíces",
+  "name": "Villa Florencia",
+  "short_name": "Villa Florencia",
+  "description": "Encuentra tu hogar ideal en Villa Florencia",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#FFFFFF",
-  "theme_color": "#FF0000",
+  "theme_color": "#663399",
   "icons": [
     {
       "src": "/img/icon-192x192.png",
