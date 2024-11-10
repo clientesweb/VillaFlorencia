@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Datos de ejemplo (en una aplicación real, estos datos vendrían de una API o base de datos)
+    // Datos actualizados con imágenes de Unsplash
     const heroImages = [
-        "img/hero.png",
-        "img/hero1.png",
-        "img/hero2.png"
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&h=1300&q=80",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&h=1300&q=80",
+        "https://images.unsplash.com/photo-1600607687126-1c366842c6fc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&h=1300&q=80"
     ];
 
     const properties = [
@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 1, 
             title: "Villa Florencia - Casa Modelo", 
             price: "Consultar", 
-            image: "img/casa-modelo.png", 
+            image: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80", 
             type: "venta",
             description: "¡Oportunidad única! Hermosa casa modelo en Villa Florencia. Este espacioso hogar cuenta con 3 habitaciones, 2.5 baños modernos, cocina abierta, sala y comedor acogedores. Áreas sociales incluyen piscina, parque infantil y áreas verdes. Seguridad 24/7 con acceso controlado.",
             features: [
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 2, 
             title: "Villa Florencia - Casa Familiar", 
             price: "Consultar", 
-            image: "img/casa-familiar.png", 
+            image: "https://images.unsplash.com/photo-1600607687644-c7f34e88598f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80", 
             type: "venta",
             description: "Amplia casa familiar en Villa Florencia, perfecta para familias que buscan comodidad y seguridad.",
             features: [
@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 3, 
             title: "Villa Florencia - Casa de Campo", 
             price: "Consultar", 
-            image: "img/casa-campo.png", 
+            image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80", 
             type: "venta",
             description: "Encantadora casa de campo en Villa Florencia, ideal para quienes buscan tranquilidad y contacto con la naturaleza.",
             features: [
@@ -67,16 +67,16 @@ document.addEventListener('DOMContentLoaded', function() {
                 "Acceso a senderos naturales"
             ],
             gallery: [
-                "https://images.unsplash.com/photo-1600607687954-e85aa7b46ca3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80",
-                "https://images.unsplash.com/photo-1600607687968-d7a205ad5e7a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80",
-                "https://images.unsplash.com/photo-1600607687985-a6ad18e3c1d8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80"
+                "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80",
+                "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80",
+                "https://images.unsplash.com/photo-1600607687954-e85aa7b46ca3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80"
             ]
         },
         { 
             id: 4, 
             title: "Villa Florencia - Casa Moderna", 
             price: "Consultar", 
-            image: "img/casa-moderna.png", 
+            image: "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80", 
             type: "venta",
             description: "Elegante casa moderna en Villa Florencia con diseño vanguardista y todas las comodidades.",
             features: [
@@ -88,16 +88,16 @@ document.addEventListener('DOMContentLoaded', function() {
                 "Garaje subterráneo para 2 vehículos"
             ],
             gallery: [
-                "https://images.unsplash.com/photo-1600607688960-a5bfcd646154?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80",
+                "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80",
                 "https://images.unsplash.com/photo-1600607688951-a5bfcd646154?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80",
-                "https://images.unsplash.com/photo-1600607688942-a5bfcd646154?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80"
+                "https://images.unsplash.com/photo-1600607688960-a5bfcd646154?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80"
             ]
         },
         { 
             id: 5, 
             title: "Villa Florencia - Casa Ejecutiva", 
             price: "Consultar", 
-            image: "img/casa-ejecutiva.png", 
+            image: "https://images.unsplash.com/photo-1600607687513-aad6b2a9e8c2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80", 
             type: "venta",
             description: "Casa ejecutiva en Villa Florencia, perfecta para profesionales que buscan comodidad y estilo.",
             features: [
@@ -109,9 +109,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 "Sistema de seguridad avanzado"
             ],
             gallery: [
-                "https://images.unsplash.com/photo-1600607688921-a5bfcd646154?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80",
-                "https://images.unsplash.com/photo-1600607688912-a5bfcd646154?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80",
-                "https://images.unsplash.com/photo-1600607688903-a5bfcd646154?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80"
+                "https://images.unsplash.com/photo-1600607687513-aad6b2a9e8c2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80",
+                "https://images.unsplash.com/photo-1600607687500-a2cfedcb2e21?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80",
+                "https://images.unsplash.com/photo-1600607687644-c7f34e88598f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80"
             ]
         }
     ];
@@ -271,6 +271,20 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         createQuienesSomosSlider() {
+            const quienesSomosSlider = document.querySelector('.quienes-somos-slider');
+            const quienesSomosImages = [
+                "https://images.unsplash.com/photo-1600585154526-990dced4db0d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80",
+                "https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80",
+                "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80",
+                "https://images.unsplash.com/photo-1600566753104-685f4f24cb4d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80"
+            ];
+
+            quienesSomosImages.forEach(image => {
+                const slide = document.createElement('div');
+                slide.innerHTML = `<img src="${image}" alt="Equipo de Villa Florencia" class="w-full h-64 object-cover rounded-lg">`;
+                quienesSomosSlider.appendChild(slide);
+            });
+
             this.createSlider('.quienes-somos-slider', {
                 dots: true,
                 infinite: true,
